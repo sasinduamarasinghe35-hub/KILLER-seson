@@ -1,0 +1,23 @@
+
+{
+    "name": "killer sesssion",
+    "description": "Web Session Generator",
+    "logo": "https://www.vecteezy.com/vector-art/12715727-killer-esport-logo-isolated-on-transparent-background",
+    "repository": "https://github.com/username/killer sesssion",
+    "keywords": ["Malvin-Tech"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
